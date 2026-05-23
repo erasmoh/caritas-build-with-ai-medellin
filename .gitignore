@@ -37,8 +37,9 @@ yarn-error.log*
 # vercel
 .vercel
 
-# devin agent local config
-.devin/
+# devin agent local config (skills/agents/config.json SÍ se commitean; solo se ignoran overrides locales)
+.devin/*.local.*
+.devin/**/*.local.*
 
 # typescript
 *.tsbuildinfo
